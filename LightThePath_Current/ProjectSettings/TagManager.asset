@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Enemy
+  - Ground
+  - SaveArea
+  - LevelTransition
+  - HUB
+  - CamScript
+  - sword
+  - Death
+  - Patrol
+  - Light
+  - Item
+  - Music
+  - Shield
+  - BehaviorSwitch
+  - LineRenderer
+  - LightPath
+  - EndGame
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - EnemyTraverse
+  - Slope
+  - 
+  - EnemyRaycast
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

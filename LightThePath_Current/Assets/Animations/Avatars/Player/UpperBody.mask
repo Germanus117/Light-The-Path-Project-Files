@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UpperBody
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Base_Joint
+    m_Weight: 0
+  - m_Path: Base_Joint/L_Hip_Base
+    m_Weight: 0
+  - m_Path: Base_Joint/L_Hip_Base/L_Hip
+    m_Weight: 0
+  - m_Path: Base_Joint/L_Hip_Base/L_Hip/L_Knee
+    m_Weight: 0
+  - m_Path: Base_Joint/L_Hip_Base/L_Hip/L_Knee/L_Heel
+    m_Weight: 0
+  - m_Path: Base_Joint/L_Hip_Base/L_Hip/L_Knee/L_Heel/L_Ball
+    m_Weight: 0
+  - m_Path: Base_Joint/L_Hip_Base/L_Hip/L_Knee/L_Heel/L_Ball/L_Toe
+    m_Weight: 0
+  - m_Path: Base_Joint/R_Hip_Base
+    m_Weight: 0
+  - m_Path: Base_Joint/R_Hip_Base/R_Hip
+    m_Weight: 0
+  - m_Path: Base_Joint/R_Hip_Base/R_Hip/R_Knee
+    m_Weight: 0
+  - m_Path: Base_Joint/R_Hip_Base/R_Hip/R_Knee/R_Heel
+    m_Weight: 0
+  - m_Path: Base_Joint/R_Hip_Base/R_Hip/R_Knee/R_Heel/R_Ball
+    m_Weight: 0
+  - m_Path: Base_Joint/R_Hip_Base/R_Hip/R_Knee/R_Heel/R_Ball/R_Toe
+    m_Weight: 0
+  - m_Path: Base_Joint/Spine_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/Armor_Mesh
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Index_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Index_1/L_Index_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Index_1/L_Index_2/L_Index_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Index_1/L_Index_2/L_Index_3/L_Index_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Middle_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Middle_1/L_Middle_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Middle_1/L_Middle_2/L_Middle_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Middle_1/L_Middle_2/L_Middle_3/L_Middle_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Pinky_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Pinky_1/L_Pinky_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Pinky_1/L_Pinky_2/L_Pinky_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Pinky_1/L_Pinky_2/L_Pinky_3/L_Pinky_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Ring_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Ring_1/L_Ring_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Ring_1/L_Ring_2/L_Ring_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Ring_1/L_Ring_2/L_Ring_3/L_Ring_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Thumb_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Thumb_1/L_Thumb_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/L_Scapula/L_Shoulder/L_Elbow/L_Wrist/L_Thumb_1/L_Thumb_2/L_Thumb_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Index_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Index_1/R_Index_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Index_1/R_Index_2/R_Index_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Index_1/R_Index_2/R_Index_3/R_Index_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Middle_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Middle_1/R_Middle_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Middle_1/R_Middle_2/R_Middle_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Middle_1/R_Middle_2/R_Middle_3/R_Middle_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Pinky_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Pinky_1/R_Pinky_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Pinky_1/R_Pinky_2/R_Pinky_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Pinky_1/R_Pinky_2/R_Pinky_3/R_Pinky_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Ring_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Ring_1/R_Ring_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Ring_1/R_Ring_2/R_Ring_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Ring_1/R_Ring_2/R_Ring_3/R_Ring_4
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Thumb_1
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Thumb_1/R_Thumb_2
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/R_Scapula/R_Shoulder/R_Elbow/R_Wrist/R_Thumb_1/R_Thumb_2/R_Thumb_3
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/Spine_5
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/Spine_5/Neck_Joint
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/Spine_5/Neck_Joint/Head_Base
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/Spine_5/Neck_Joint/Head_Base/Head_Top
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/Spine_5/Neck_Joint/Head_Base/Head_Top/Left_Eye
+    m_Weight: 1
+  - m_Path: Base_Joint/Spine_1/Spine_2/Spine_4/Spine_5/Neck_Joint/Head_Base/Head_Top/Right_Eye
+    m_Weight: 1
+  - m_Path: Player_Mesh
+    m_Weight: 1
