@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
     bool walking;
 
     public AudioSource StepSound;
-    public AudioSource AttackSound;
+    //public AudioSource AttackSound;
 
     // Use this for initialization
     void Start()
@@ -89,13 +89,13 @@ public class PlayerController : MonoBehaviour
             {
 				if (InputManager.sprint && stamina.currentStamina != 0 && !StaminaBoost.infStamina && playerMoving == true && !PlayerDamage.tookDamage)
                 {
-                    speed = sprintingSpeed;
+                    speed = sprintingSpeed + speedBoost;
                     stamina.staminaInUse = true;
 
                 }
                 else if (InputManager.sprint && StaminaBoost.infStamina)
                 {
-                    speed = sprintingSpeed;
+                    speed = sprintingSpeed + speedBoost;
                 }
                 else
                 {
@@ -112,6 +112,7 @@ public class PlayerController : MonoBehaviour
 
 
             NormalMovement();
+            
         }
         else
         {
@@ -119,10 +120,11 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("Shielding", false);
             anim.SetFloat("ShieldorMove", Mathf.Lerp(anim.GetFloat("ShieldorMove"), 0f, Time.deltaTime * 5f));
             anim.SetLayerWeight(anim.GetLayerIndex("Combat"), Mathf.Lerp(anim.GetLayerWeight(anim.GetLayerIndex("Combat")), 0f, Time.deltaTime * 5f));
+            
         }
 
 
-
+        
     }
 
     private void FixedUpdate()
@@ -186,7 +188,7 @@ public class PlayerController : MonoBehaviour
 
         if (inputDir != Vector2.zero && Weapon.canTurn)
         {
-            AttackSound.Play();
+            //AttackSound.Play();
             float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg + mainCam.eulerAngles.y;
             transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, Weapon.turnSmooth);
         }

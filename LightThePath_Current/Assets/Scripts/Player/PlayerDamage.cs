@@ -13,7 +13,7 @@ public class PlayerDamage : MonoBehaviour
     public AudioSource playerHurt;
 	public static bool tookDamage = false;
 	public float tookDamageInterval;
-    public static int defensiveBoost = 0;
+    public static int defensiveBoost = 1;
 
     public Transform spawnPoint;
 

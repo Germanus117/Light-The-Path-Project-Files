@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class OrbDialogController : MonoBehaviour {
+public class OrbDialogController : MonoBehaviour
+{
 
 
     public bool inTrigger;
     public GameObject orbDialog;
     public string dialogText;
     public string findObjectTxt;
-
+    public bool inShrine;
     public bool isPickupObject;
     //public bool findObject;
 
@@ -38,10 +39,10 @@ public class OrbDialogController : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-
+            inShrine = true;
             if (!lightUsed)
             {
-                if(inventory.equipables.Count == 0)
+                if (inventory.equipables.Count == 0)
                 {
                     orbDialog.SetActive(true);
                     orbDialog.GetComponent<Text>().text = findObjectTxt;
@@ -78,6 +79,7 @@ public class OrbDialogController : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            inShrine = false;
             orbDialog.SetActive(false);
             inTrigger = false;
         }

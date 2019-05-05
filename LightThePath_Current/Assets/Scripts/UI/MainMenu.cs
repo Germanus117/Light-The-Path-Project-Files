@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public GameObject mainMenuUI;
-    public GameObject creditsUI;
+    //public GameObject creditsUI;
     public GameObject MusicCreditsUI;
 
     public Vector3 SavePos;
@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         mainMenuUI.SetActive(false);
-        creditsUI.SetActive(false);
+        //creditsUI.SetActive(false);
         Cursor.visible = false;
         SceneManager.LoadScene("Level_1");
 
@@ -40,12 +40,12 @@ public class MainMenu : MonoBehaviour
     //    Saverot = new Quaternion(PlayerPrefs.GetFloat("SaveRotx"), PlayerPrefs.GetFloat("SaveRoty"), PlayerPrefs.GetFloat("SaveRotz"), PlayerPrefs.GetFloat("SaveRotw"));
     //    DontDestroyOnLoad(this.gameObject);
     //}
-    public void Credits()
-    {
-        mainMenuUI.SetActive(false);
-        creditsUI.SetActive(true);
-        Cursor.visible = true;
-    }
+//    public void Credits()
+//    {
+//        mainMenuUI.SetActive(false);
+//        //creditsUI.SetActive(true);
+//        Cursor.visible = true;
+//    }
     public void MusicCredits()
     {
         mainMenuUI.SetActive(false);
@@ -55,7 +55,7 @@ public class MainMenu : MonoBehaviour
     public void Back()
     {
         mainMenuUI.SetActive(true);
-        creditsUI.SetActive(false);
+        //creditsUI.SetActive(false);
         MusicCreditsUI.SetActive(false);
         Cursor.visible = true;
     }

@@ -38,12 +38,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1479274939668568}
   m_LocalRotation: {x: -0, y: 0.29361567, z: -0, w: 0.95592356}
-  m_LocalPosition: {x: -14.920667, y: -1.5390205, z: 24.738607}
-  m_LocalScale: {x: 7.295, y: 7.295, z: 7.295}
+  m_LocalPosition: {x: 77.15, y: 3.43, z: -6.31}
+  m_LocalScale: {x: 7.294999, y: 7.2949996, z: 7.294999}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 34.149002, z: 4.755}
 --- !u!23 &23310450576766396
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -59,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: e8840a0110b97284992a9617df49eb17, type: 3}
+  - {fileID: 2100000, guid: 8f6f04fc74f819f42b7e7d86ac555ab6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,5 +126,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inTrigger: 0
   interactDialog: {fileID: 0}
-  dialogText: Press "E" or "A" to collect object
+  dialogText: Press "E" or "A" to collect health
   isPickupObject: 0

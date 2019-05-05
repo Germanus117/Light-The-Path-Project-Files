@@ -14,9 +14,10 @@ public class DialogController : MonoBehaviour {
     //public bool findObject;
 
 
-	
-	// Update is called once per frame
-	void Update () {
+
+
+    // Update is called once per frame
+    void Update () {
         if (inTrigger)
         {
             if (InputManager.interact)

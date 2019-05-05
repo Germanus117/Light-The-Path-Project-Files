@@ -34,7 +34,7 @@ public class DarknessEffects : MonoBehaviour
         {
             if (timer <= 0)
             {
-                playerHealth.TakeDamage(10);
+                playerHealth.TakeDamage(20);
                 timer = 0.5f;
             }
             else

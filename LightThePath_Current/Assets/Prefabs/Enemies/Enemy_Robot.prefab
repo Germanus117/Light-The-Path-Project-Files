@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c701e361ace0047ada277e47971f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 5
+  Health: 3
   enemyHurt: {fileID: 8300000, guid: 8131f3a2f723247de81af1292efd7a7d, type: 3}
   audioSource: {fileID: 82434357463417914}
   knockbackValue: 5

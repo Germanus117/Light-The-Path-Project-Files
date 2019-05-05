@@ -127,7 +127,7 @@ public class CombatLock : MonoBehaviour {
         }
         if (targets.Count > 0)
         {
-            
+            lockIcons.SetActive(true);
             SortEnemiesByDistance();
             
             lockIcons.transform.LookAt(Camera.main.transform);
@@ -136,6 +136,7 @@ public class CombatLock : MonoBehaviour {
                 SoftLock();
                 SoftTargetLock();
                 softLocked = true;
+                targetLockIcon.SetActive(false);
             }
             else
             {
@@ -148,7 +149,8 @@ public class CombatLock : MonoBehaviour {
             selectedTarget = null;
             targetLocked = false;
             softLocked = false;
-            softLockIcon.SetActive(false);
+            softLockIcon.SetActive(true);
+            lockIcons.SetActive(false);
         }
     }
 

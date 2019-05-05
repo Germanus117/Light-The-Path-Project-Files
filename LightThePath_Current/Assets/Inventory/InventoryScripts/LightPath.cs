@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class LightPath : MonoBehaviour {
+public class LightPath : MonoBehaviour
+{
 
     //public int pathLights;
     public List<GameObject> lights = new List<GameObject>();
 
     public int LightPathID;
+    public ShrineManager activateShrine;
 
+    // Test for player being
     // Use this for initialization
     void Start()
     {
@@ -53,6 +56,10 @@ public class LightPath : MonoBehaviour {
                 {
                     notOff = true;
                     lights[i].SetActive(false);
+                    if (activateShrine.shrineID == LightPathID)
+                    {
+                        activateShrine.orbUsed = true;
+                    }
                 }
                 else
                 {

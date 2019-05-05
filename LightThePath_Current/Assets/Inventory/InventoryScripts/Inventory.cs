@@ -41,7 +41,9 @@ public class Inventory : MonoBehaviour
                 Debug.Log("Not enough room.");
                 return false;
             }
-            lightPathID = ID;
+			if (ID != 0) {
+				lightPathID = ID;
+			}
             equipables.Add(equipable);
 
             if (onItemChangedCallback != null)

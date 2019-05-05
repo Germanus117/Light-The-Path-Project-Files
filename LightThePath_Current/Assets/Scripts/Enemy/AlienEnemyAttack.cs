@@ -65,18 +65,18 @@ public class AlienEnemyAttack : MonoBehaviour {
 			if (attackChoice >= 1 && attackChoice < 4) {
 				anim.SetTrigger ("enemy_attack");
 				timer = 0f;
-				attack = 3;
+				attack = 8;
 				timeBetweenAttacks = 2.5f;
 				// Attack();
 			} else if (attackChoice >= 4 && attackChoice < 5) {
 				anim.SetTrigger ("enemy_quick_attack");
 				timer = 0f;
-				attack = 1;
+				attack = 4;
 				timeBetweenAttacks = 1.5f;
 			} else if (attackChoice >= 5 && attackChoice < 7) {
 				anim.SetTrigger ("enemy_heavy_attack");
 				timer = 0f;
-				attack = 6;
+				attack = 10;
 				timeBetweenAttacks = 3.5f;
 			} else if (attackChoice >= 7) {
 				timer = 0f;
@@ -109,6 +109,7 @@ public class AlienEnemyAttack : MonoBehaviour {
                         PlayerDamage.anim.SetFloat("WalktoRun", 0f);
                         PlayerDamage.anim.SetFloat("ShieldorMove", 0f);
                     }
+                    Weapon.attacking = false;
                 } else {
                     PlayerDamage.anim.SetTrigger("ShieldHit");
                     ShieldSound.Play();
@@ -130,6 +131,7 @@ public class AlienEnemyAttack : MonoBehaviour {
                         PlayerDamage.anim.SetFloat("WalktoRun", 0f);
                         PlayerDamage.anim.SetFloat("ShieldorMove", 0f);
                     }
+                    Weapon.attacking = false;
                 } else {
                     playerHealth.TakeDamage(attack);
                     if(playerHealth.playerHealth > 1) {
@@ -144,6 +146,7 @@ public class AlienEnemyAttack : MonoBehaviour {
                         PlayerDamage.anim.SetFloat("WalktoRun", 0f);
                         PlayerDamage.anim.SetFloat("ShieldorMove", 0f);
                     }
+                    Weapon.attacking = false;
                 }
             }
         }

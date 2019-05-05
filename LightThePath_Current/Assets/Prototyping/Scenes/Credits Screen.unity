@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 146989733}
   - component: {fileID: 146989732}
   - component: {fileID: 146989731}
+  - component: {fileID: 146989736}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -216,6 +217,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &146989736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 146989730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505bae8991aed184487fec15c682e8dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 30
 --- !u!1 &600726348
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 6}
+  m_AnchoredPosition: {x: 157, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &750030622
@@ -448,7 +461,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -241.95001, y: -652}
-  m_SizeDelta: {x: 538.1, y: 616}
+  m_SizeDelta: {x: 1000, y: 1800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475389312
 MonoBehaviour:
@@ -470,12 +483,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 45cc4c207d37fdd4da228bc40a07c039, type: 3}
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -652,7 +665,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 255, y: -652}
-  m_SizeDelta: {x: 538.1, y: 616}
+  m_SizeDelta: {x: 1000, y: 1800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927680485
 MonoBehaviour:
@@ -674,12 +687,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 45cc4c207d37fdd4da228bc40a07c039, type: 3}
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -687,8 +700,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\n\nNick Monnin-Allen\n\nGarrett Foster\nMike Stone\nMike Boggs\nKacie
-    Hill\nNick Monnin-Allen\n\n\nAndy\nSean Bailiff\nDonald\nAlbert\n\n\nNick Monnin-Allen\n\n\nNick
-    Cage\t"
+    Hill\nNick Monnin-Allen\n\n\nAndy Phan\nSean Bailiff\nDonald Burke\nAlbert Schierman\n\n\nNick
+    Monnin-Allen\n\n\nNick Cage\t"
 --- !u!222 &1927680486
 CanvasRenderer:
   m_ObjectHideFlags: 0

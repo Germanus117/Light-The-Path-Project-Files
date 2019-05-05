@@ -10,6 +10,8 @@ public class Turret : MonoBehaviour
     public GameObject turretBarrel;
     public GameObject ProjectileSpawn;
     public GameObject projectile;
+    public ParticleSystem muzzleFlash;
+    public GameObject muzzleLight;
     public float fireRate;
     private bool roundLoaded;
 
@@ -35,16 +37,21 @@ public class Turret : MonoBehaviour
 
     void fire()
     {
+        muzzleLight.SetActive(true);
         Transform Projectile = Instantiate(projectile.transform,ProjectileSpawn.transform.position, Quaternion.identity);
         Projectile.transform.rotation = ProjectileSpawn.transform.rotation;
+        
+        muzzleFlash.Play();
         roundLoaded = false;
         StartCoroutine(projectileRate());
+        muzzleLight.SetActive(false);
     }
 
     IEnumerator projectileRate()
     {
         yield return new WaitForSeconds(fireRate);
         roundLoaded = true;
+        muzzleFlash.Stop();
     }
 
     private void OnTriggerEnter(Collider other)

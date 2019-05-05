@@ -27,7 +27,7 @@ public class Weapon : MonoBehaviour
     public static float turnSmooth;
 
 
-
+    bool knockedBack;
     bool combo;
 
     Stamina stamina;
@@ -54,6 +54,12 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
+        if(!attacking) {
+            foreach(Collider colliders in swordColliders) {
+                colliders.enabled = false;
+            }
+            attackNumber = 0;
+        }
         if (InputManager.attack || Input.GetMouseButtonDown(0) && stamina.currentStamina != 0)
         {
 
@@ -165,6 +171,8 @@ public class Weapon : MonoBehaviour
             }
         }
     }
+
+
 
     public void OnTriggerEnter(Collider other)
     {

@@ -20,7 +20,7 @@ public class SceneManagement : MonoBehaviour
         }
         if (other.tag == "EndGame")
         {
-            Invoke("Win", 5f);      
+            Invoke("Win", 1f);      
         }
     }
 

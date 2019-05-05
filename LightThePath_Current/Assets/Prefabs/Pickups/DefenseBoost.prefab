@@ -112,8 +112,7 @@ MonoBehaviour:
   equipable: {fileID: 11400000, guid: 2ef8ff3c8f30e194b8dd9ed259ccf5a4, type: 2}
   lightPathID: 0
   lightPathScript: {fileID: 0}
-  interactDialog: {fileID: 1808182040344218, guid: 864202053e0496f4187d5d864a6eba7d,
-    type: 2}
+  interactDialog: {fileID: 0}
 --- !u!114 &114732669678291134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,5 +127,5 @@ MonoBehaviour:
   inTrigger: 0
   interactDialog: {fileID: 1808182040344218, guid: 864202053e0496f4187d5d864a6eba7d,
     type: 2}
-  dialogText: Press "E" or "A" to collect object
+  dialogText: Press "E" or "A" to collect boost
   isPickupObject: 0

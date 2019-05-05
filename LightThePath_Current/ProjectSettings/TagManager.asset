@@ -22,6 +22,7 @@ TagManager:
   - LineRenderer
   - LightPath
   - EndGame
+  - Shrine
   layers:
   - Default
   - TransparentFX

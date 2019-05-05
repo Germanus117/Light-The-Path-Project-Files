@@ -37,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1129852779502254}
-  m_LocalRotation: {x: -0, y: -0.32232413, z: -0, w: 0.9466294}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -108.99, y: -1.04, z: -9.56}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -37.607002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23175795289194948
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -59,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 85dde952a2ff7644fbf2be871b3f9730, type: 3}
+  - {fileID: 2100000, guid: 8ef45e252f8aedf4d8ed60b8f303278c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,7 +112,8 @@ MonoBehaviour:
   equipable: {fileID: 11400000, guid: ab5445c167a336f4084121c8de58796f, type: 2}
   lightPathID: 0
   lightPathScript: {fileID: 0}
-  interactDialog: {fileID: 0}
+  interactDialog: {fileID: 1808182040344218, guid: 864202053e0496f4187d5d864a6eba7d,
+    type: 2}
 --- !u!114 &114943293838711394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inTrigger: 0
-  interactDialog: {fileID: 0}
-  dialogText: Press "E" or "A" to collect object
+  interactDialog: {fileID: 1808182040344218, guid: 864202053e0496f4187d5d864a6eba7d,
+    type: 2}
+  dialogText: Press "E" or "A" to collect stamina
   isPickupObject: 0

@@ -8,11 +8,13 @@ public class projectile : MonoBehaviour
 	public GameObject player;
     public float speed;
 	private PlayerDamage playerHealth;
+    private GameObject wall;
     
 
 	void Start() {
 		player = GameObject.Find ("Player_Character");
 		playerHealth = player.GetComponent<PlayerDamage>();
+        wall = GameObject.FindGameObjectWithTag("Wall");
 	}
 
     private void Update()
@@ -26,8 +28,12 @@ public class projectile : MonoBehaviour
         if(other.tag == "Player")
         {
             
-            playerHealth.TakeDamage(10);   
+            playerHealth.TakeDamage(12);   
 			Destroy (gameObject);
+        }
+        if(other.tag == "Wall")
+        {
+            Destroy(gameObject);
         }
     }
     

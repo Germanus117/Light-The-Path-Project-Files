@@ -372,7 +372,8 @@ MonoBehaviour:
   equipable: {fileID: 11400000, guid: 2583c5ecc3853ef4c850ad56d240c4c3, type: 2}
   lightPathID: 0
   lightPathScript: {fileID: 0}
-  interactDialog: {fileID: 0}
+  interactDialog: {fileID: 1808182040344218, guid: 864202053e0496f4187d5d864a6eba7d,
+    type: 2}
 --- !u!114 &114927863970267018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -385,7 +386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inTrigger: 0
-  interactDialog: {fileID: 0}
+  interactDialog: {fileID: 1808182040344218, guid: 864202053e0496f4187d5d864a6eba7d,
+    type: 2}
   dialogText: Press "E" or "A" to collect object
   isPickupObject: 0
 --- !u!135 &135613890791988980

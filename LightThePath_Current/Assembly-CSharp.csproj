@@ -118,9 +118,11 @@
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\AnimEventControl\EnemyDeath.cs" />
     <Compile Include="Assets\Scripts\AnimEventControl\Recover.cs" />
+    <Compile Include="Assets\Scripts\boostEffects.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
     <Compile Include="Assets\Scripts\Camera\CombatLock.cs" />
     <Compile Include="Assets\Scripts\DarknessEffects.cs" />
+    <Compile Include="Assets\Scripts\EndCredits.cs" />
     <Compile Include="Assets\Scripts\Enemy\AlienEnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyDeathParticle.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemyDetect.cs" />
@@ -149,7 +151,6 @@
     <Compile Include="Assets\Scripts\Player\Weapon.cs" />
     <Compile Include="Assets\Scripts\TurretManager\projectile.cs" />
     <Compile Include="Assets\Scripts\TurretManager\Turret.cs" />
-    <Compile Include="Assets\Scripts\UI\boostEffects.cs" />
     <Compile Include="Assets\Scripts\UI\CamSliderController.cs" />
     <Compile Include="Assets\Scripts\UI\DialogController.cs" />
     <Compile Include="Assets\Scripts\UI\IntroController.cs" />
